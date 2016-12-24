@@ -26,4 +26,14 @@ dependencies {
   })
   compile 'com.android.support:appcompat-v7:25.1.0'
   testCompile 'junit:junit:4.12'
+
+  // Retrofit
+  compile 'com.squareup.retrofit2:retrofit:2.1.0'
+
+  // JSON Parsing
+  compile 'com.google.code.gson:gson:2.6.1'
+  compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+
+  // recyclerview
+  compile 'com.android.support:recyclerview-v7:25.1.0'
 }
