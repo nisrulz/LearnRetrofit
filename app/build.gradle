@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 28
+  compileSdkVersion 29
 
   defaultConfig {
     applicationId "github.nisrulz.sample.learnretrofit"
     minSdkVersion 14
-    targetSdkVersion 28
+    targetSdkVersion 29
     versionCode 1
     versionName "1.0"
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -22,17 +22,17 @@ android {
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-  implementation 'androidx.appcompat:appcompat:1.0.2'
+  implementation 'androidx.appcompat:appcompat:1.1.0'
 
   // Testing
-  androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
   testImplementation 'junit:junit:4.12'
+  androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
   // Retrofit
-  implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+  implementation 'com.squareup.retrofit2:retrofit:2.6.2'
 
   // JSON Parsing
-  implementation 'com.google.code.gson:gson:2.8.2'
+  implementation 'com.google.code.gson:gson:2.8.5'
   implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 
   // recyclerview
